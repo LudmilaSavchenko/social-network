@@ -4,10 +4,6 @@ from django.http import HttpResponse
 
 
 # Create your views here.
-"""
-def index(request):
-    return HttpResponse('<b>Главная страница</b>')
-"""
 def index(request):
     template = 'posts/index.html'
     title = 'Социальная сеть блогеров Yatube'
